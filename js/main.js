@@ -33,6 +33,7 @@
 
     obtenerValoresCompra();
     calcularMonto(valorDelproducto, cantidadDeCuotas);
+    reiniciarProceso();
 
 function reiniciarProceso() {
     let reiniciar = confirm("¿Deseas reiniciar el proceso para ingresar nuevos valores?");
@@ -45,8 +46,3 @@ function reiniciarProceso() {
         alert("Gracias por utilizar nuestro servicio.");
     }
 }
-
-obtenerValoresCompra();
-calcularMonto(valorDelproducto, cantidadDeCuotas);
-
-reiniciarProceso();
